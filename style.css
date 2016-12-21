@@ -1,5 +1,6 @@
 html {
 	font-family: 'Helevetica', sans-serif;
+	background-color: #fff;
 }
 
 body {
@@ -43,6 +44,7 @@ div:focus {
 
 #boxed {
 	padding: 16px;
+	padding-bottom: 122px;
 	position: relative;
 	float: left;
 	border: 6px solid #ddd;
@@ -55,8 +57,15 @@ div:focus {
 	font-size: 32px;
 	color: #333;
 	letter-spacing: 8px;
-	line-height: 62px;
+	line-height: 72px;
 	margin-right: 2px;
 	margin-bottom: 72px;
 	margin-top: 6px;
+}
+
+.lettersColor1 {
+	color: #333;
+}
+.lettersColor2 {
+	color: #5b7d86;
 }
