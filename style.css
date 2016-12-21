@@ -36,7 +36,7 @@ div:focus {
 	padding-top: 10px;
 	font-size: 24px;
 	margin-left: 250px;
-	width: 400px;
+	width: 800px;
 	min-height: calc(100vh - 222px);
 	word-wrap: break-word;
 }
