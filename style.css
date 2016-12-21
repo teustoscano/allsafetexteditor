@@ -5,8 +5,20 @@ html {
 body {
 	color: #333;
 	font-weight: 100;
-	max-width: 50em;
-	margin: 0 auto;
+	max-width: 200em;
+	/*margin: 0 auto;*/
+}
+
+footer {
+	padding: 1em;
+	text-align: center;
+	background-color: #ddd;
+	color: #999;
+	position: relative;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 50px;
 }
 
 div:focus {
@@ -17,9 +29,34 @@ div:focus {
 	font-size: 48px;
 	letter-spacing: 1px;
 	padding-top: 30px;
+	margin-left: 250px;
 }
 
 #content {
 	padding-top: 10px;
 	font-size: 24px;
+	margin-left: 250px;
+	width: 400px;
+	min-height: calc(100vh - 222px);
+	word-wrap: break-word;
+}
+
+#boxed {
+	padding: 16px;
+	position: relative;
+	float: left;
+	border: 6px solid #ddd;
+	margin-left: 32px;
+	margin-top: 116px;
+	margin-right: 32px;
+}
+
+#boxed p {
+	font-size: 32px;
+	color: #333;
+	letter-spacing: 8px;
+	line-height: 62px;
+	margin-right: 2px;
+	margin-bottom: 72px;
+	margin-top: 6px;
 }
