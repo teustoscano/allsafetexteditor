@@ -11,9 +11,9 @@ body {
 }
 
 footer {
-	padding: 1em;
+	padding: 0.5em;
 	text-align: center;
-	background-color: #ddd;
+	border: 6px solid #ddd;
 	color: #999;
 	position: relative;
 	left: 0;
@@ -47,7 +47,8 @@ div:focus {
 	padding-bottom: 122px;
 	position: relative;
 	float: left;
-	border: 6px solid #ddd;
+	border: 6px solid;
+	border-color: #ddd;
 	margin-left: 32px;
 	margin-top: 116px;
 	margin-right: 32px;
@@ -61,6 +62,10 @@ div:focus {
 	margin-right: 2px;
 	margin-bottom: 72px;
 	margin-top: 6px;
+}
+
+#page{
+	background-color: #fff;
 }
 
 .lettersColor1 {
@@ -90,6 +95,6 @@ div:focus {
 	color: #CF9B61;
 }
 
-.bgColor{
+#bgColor{
 	background-color: #0F0D21;
 }

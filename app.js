@@ -15,6 +15,7 @@ function changeColorFunction () {
 		document.getElementById('footer').setAttribute("class", "lettersColor2");
 		document.getElementById('boxed').setAttribute("class", "lettersColor2");
 		document.getElementById('ptitle').setAttribute("id", "idColor2");
+		document.getElementById('page').setAttribute("id", "bgColor");
 
 		count++;
 	}else if((count % 2) != 0){
@@ -23,6 +24,7 @@ function changeColorFunction () {
 		document.getElementById('footer').setAttribute("class", "lettersColor1");
 		document.getElementById('boxed').setAttribute("class", "lettersColor1");
 		document.getElementById('idColor2').setAttribute("id", "ptitle");
+		document.getElementById('bgColor').setAttribute("id", "page");
 
 		count++;
 	}
