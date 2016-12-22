@@ -1,6 +1,6 @@
 html {
 	font-family: 'Helevetica', sans-serif;
-	background-color: #fff;
+	
 }
 
 body {
@@ -53,7 +53,7 @@ div:focus {
 	margin-right: 32px;
 }
 
-#boxed p {
+#ptitle {
 	font-size: 32px;
 	color: #333;
 	letter-spacing: 8px;
@@ -67,5 +67,29 @@ div:focus {
 	color: #333;
 }
 .lettersColor2 {
-	color: #5b7d86;
+	color: #CF9B61;
+}
+
+#idColor1{
+	font-size: 32px;
+	letter-spacing: 8px;
+	line-height: 72px;
+	margin-right: 2px;
+	margin-bottom: 72px;
+	margin-top: 6px;
+	color: #333;
+}
+
+#idColor2{
+	font-size: 32px;
+	letter-spacing: 8px;
+	line-height: 72px;
+	margin-right: 2px;
+	margin-bottom: 72px;
+	margin-top: 6px;
+	color: #CF9B61;
+}
+
+.bgColor{
+	background-color: #0F0D21;
 }

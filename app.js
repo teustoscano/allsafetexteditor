@@ -8,18 +8,22 @@ setInterval(function(){
 	localStorage['text'] = document.getElementById('content').innerHTML;
 }, 1000);
 
-function changeColorFunction (argument) {
+function changeColorFunction () {
 	if((count % 2) == 0){
 		document.getElementById('content').setAttribute("class", "lettersColor2");
 		document.getElementById('heading').setAttribute("class", "lettersColor2");
 		document.getElementById('footer').setAttribute("class", "lettersColor2");
 		document.getElementById('boxed').setAttribute("class", "lettersColor2");
+		document.getElementById('ptitle').setAttribute("id", "idColor2");
+
 		count++;
 	}else if((count % 2) != 0){
 		document.getElementById('content').setAttribute("class", "lettersColor1");
 		document.getElementById('heading').setAttribute("class", "lettersColor1");
 		document.getElementById('footer').setAttribute("class", "lettersColor1");
 		document.getElementById('boxed').setAttribute("class", "lettersColor1");
+		document.getElementById('idColor2').setAttribute("id", "ptitle");
+
 		count++;
 	}
 }
