@@ -13,7 +13,8 @@ body {
 footer {
 	padding: 0.5em;
 	text-align: center;
-	border: 6px solid #ddd;
+	border: 6px solid; 
+	border-color: #ddd;
 	color: #999;
 	position: relative;
 	left: 0;
@@ -62,6 +63,7 @@ div:focus {
 	margin-right: 2px;
 	margin-bottom: 72px;
 	margin-top: 6px;
+	border-color: #ddd;
 }
 
 #page{
@@ -73,16 +75,6 @@ div:focus {
 }
 .lettersColor2 {
 	color: #CF9B61;
-}
-
-#idColor1{
-	font-size: 32px;
-	letter-spacing: 8px;
-	line-height: 72px;
-	margin-right: 2px;
-	margin-bottom: 72px;
-	margin-top: 6px;
-	color: #333;
 }
 
 #idColor2{
